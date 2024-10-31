@@ -1,0 +1,41 @@
+---
+title: Polkadart
+description: The polkadart library is a Dart library for interacting with Polkadot and Substrate based blockchains.
+template: splash
+editUrl: false
+lastUpdated: false
+hero:
+  tagline: A polkadot library for Dart/Flutter developers.
+  image:
+    file: ../../assets/logo.svg
+  actions:
+    - text: View documentation
+      link: /intro
+      icon: rocket
+    - text: View on GitHub
+      link: https://github.com/leonardocustodio/polkadart
+      icon: github
+			variant: secondary
+---
+import { CardGrid } from '@astrojs/starlight/components';
+import Card from '../../components/landing/Card.astro';
+
+<CardGrid>
+
+	<Card title="Fully typed APIs" icon="approve-check-circle">
+		Polkadart generates fully typed APIs for any Polkadot based chain. This means you can interact with the chain using Dart/Flutter with full type safety.
+	</Card>
+
+	<Card title="Multiplatform" icon="laptop">
+		Our library is designed to work on both Dart and Flutter projects. You can use it to build any kind of application, from mobile to web.
+	</Card>
+
+	<Card title="Lightweight" icon="rocket">
+		We aim to keep the library as lightweight as possible, so you can use it without worrying about performance issues or bloated code.
+	</Card>
+
+	<Card title="Native code" icon="seti:dart">
+		There are no platform channels or native code involved. Everything is written in Dart, so you can use it on any platform without any extra configuration.
+	</Card>
+
+</CardGrid>
