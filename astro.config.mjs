@@ -42,7 +42,6 @@ export default defineConfig({
 					label: 'Introduction',
 					items: [
 						{ label: 'Overview', slug: 'intro' },
-						{ label: 'Why Polkadart?', slug: 'intro/why-polkadart' },
 					],
 				},
 				{
