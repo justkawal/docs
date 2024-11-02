@@ -15,6 +15,7 @@ export default defineConfig({
         applyBaseStyles: false,
 		}), sitemap(), icon(), starlight({
         title: 'Polkadart',
+        description: 'Polkadart is a Dart & Flutter library for interacting with Polkadot-based blockchains. It provides a simple and easy-to-use API to interact with the Polkadot network.',
         social: {
             telegram: 'https://t.me/polkadart',
             github: 'https://github.com/leonardocustodio/polkadart',
@@ -155,11 +156,11 @@ export default defineConfig({
         ],
         components: {
             Head: './src/components/starlight/Head.astro',
-            // 	MarkdownContent: './src/components/starlight/MarkdownContent.astro',
         },
         customCss: [
-            './src/tailwind.css',
-            './src/custom.scss',
+            './src/assets/tailwind.css',
+            './src/assets/custom.scss',
+            './src/assets/landing.css',
         ],
 		})],
 });

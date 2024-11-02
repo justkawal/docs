@@ -24,9 +24,6 @@ export default {
 	theme: {
 		extend: {
 			colors: { accent, gray },
-			// fontFamily: {
-			//     sans: ['Figtree Variable'],
-			// },
 		},
 	},
 	plugins: [starlightPlugin()],
